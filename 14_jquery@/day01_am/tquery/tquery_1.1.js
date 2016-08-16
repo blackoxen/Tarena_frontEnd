@@ -6,13 +6,26 @@
 
 
 
-//1、封装TQobject:
+//1、封装TQObject(tQuery对象):
 function TQObject(){
 	this.data = [];
 }
-
+ 
 //2、通过原型添加自定义方法
 TQObject.prototype ={
+	//给原型加方法
+	size:function(){
+		return this.data.length;
+	}
+	
+	//html()方法：
+//	html:function(content){
+//		if(content){
+//			
+//		}else{
+//			
+//		}
+//	}
 	
 }
 
